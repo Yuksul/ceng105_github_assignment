@@ -13,6 +13,8 @@ int main()
    printf("Enter your username: ");
    scanf("%c", &y);
 
+  printf("The other username is:%c", y);
+
 return 0;
 
 }
