@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+   char x;
+
+   
+   printf("Enter your username:");
+   scanf("%c", &x);
+
+   printf("%c is your username",x);
+
+return 0;
+
+}
