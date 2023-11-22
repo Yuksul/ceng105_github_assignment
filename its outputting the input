@@ -3,12 +3,15 @@
 int main()
 {
    char x;
+   char y;
 
    
    printf("Enter your username:");
    scanf("%c", &x);
 
    printf("%c is your username",x);
+   printf("Enter your username: ");
+   scanf("%c", &y);
 
 return 0;
 
